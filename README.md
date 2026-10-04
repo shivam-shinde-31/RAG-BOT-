@@ -14,10 +14,11 @@ Interactive Querying: Supports Jupyter Notebook (code.ipynb) workflows for rapid
 
 📁 Project Structure
 
-Intelligent RAG/
-├── data/                    # Contains dataset and policy documents (e.g., Employee Handbook)
-├── .env                     # Local environment variables (ignored by git)
-├── .env.example             # Template for required environment variables
-├── .gitignore               # Specifies intentionally untracked files
-├── code.ipynb               # Main Python notebook implementing the RAG pipeline
-└── README.md                # Project documentation
+- **Intelligent RAG/**
+  - **data/** — Contains dataset files and HR policy PDFs (e.g., Employee_Handbook.pdf)
+  - **code.ipynb** — Main Jupyter Notebook implementing the RAG pipeline
+  - **submission.csv** — Model output results
+  - **.env** — Local secret configuration (Ignored by git)
+  - **.env.example** — Template for required environment variables
+  - **.gitignore** — Specifies intentionally untracked files
+  - **README.md** — Project documentation
